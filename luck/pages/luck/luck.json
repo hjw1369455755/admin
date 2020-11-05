@@ -1,3 +1,6 @@
 {
-  "usingComponents": {}
+  
+  "usingComponents": {
+    "roulette": "../component/roulette/roulette"
+  }
 }

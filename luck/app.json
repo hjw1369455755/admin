@@ -1,14 +1,16 @@
 {
-  "pages":[
+  "pages": [
     "pages/luck/luck",
+    "pages/luck1/luck1",
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/luck2/luck2"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
+  "window": {
+    "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "Weixin",
-    "navigationBarTextStyle":"black"
+    "navigationBarTitleText": "活动",
+    "navigationBarTextStyle": "black"
   },
   "tabBar": {
     "color": "#7A7E83",
@@ -17,28 +19,22 @@
     "backgroundColor": "#ffffff",
     "list": [
       {
-        "pagePath": "pages/index/index",
-        "iconPath": "",
-        "selectedIconPath": "",
+        "pagePath": "pages/luck/luck",
+        "iconPath": "/pages/images/home.png",
+        "selectedIconPath": "/pages/images/home_a.png",
         "text": "首页"
       },
       {
-        "pagePath": "pages/index/index",
-        "iconPath": "",
-        "selectedIconPath": "",
+        "pagePath": "pages/luck1/luck1",
+        "iconPath": "/pages/images/home.png",
+        "selectedIconPath": "/pages/images/home_a.png",
         "text": "产品中心"
       },
       {
-        "pagePath": "pages/index/index",
-        "iconPath": "",
-        "selectedIconPath": "",
+        "pagePath": "pages/luck2/luck2",
+        "iconPath": "/pages/images/home.png",
+        "selectedIconPath": "/pages/images/home_a.png",
         "text": "公司简介"
-      },
-      {
-        "pagePath": "pages/index/index",
-        "iconPath": "",
-        "selectedIconPath": "",
-        "text": "联系我们"
       }
     ]
   },
