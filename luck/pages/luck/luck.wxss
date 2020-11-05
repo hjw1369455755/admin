@@ -41,6 +41,7 @@
 .times view {
   display: inline-block;
   height: 64rpx;
+  border:Red solid 1rpx ;
   width: 180rpx;
   margin: 0 20rpx;
   background-color: #f4f4f4;
@@ -62,7 +63,7 @@
   margin: -75rpx 0 0 -75rpx;
   transform-origin: 50% 50%;
 }
-wheel_wp image {
+.wheel_wp image {
   width: 100%;
   height: 100%;
 }

@@ -22,7 +22,29 @@ Page({
     })
     this.animation = animation
   },
-
+  start(){
+    console.log(1)
+    if (this.isStart) return
+    let tmpnum = Math.random()
+    tmpnum = tmpnum < 0.5 ? tmpnum + 0.1 : tmpnum - 0.1
+    const endAddAngle = (this.awardNumer - 1 + tmpnum) * this.singleAngle + 360 // 中奖角度
+    const rangeAngle = (Math.floor(Math.random() * 4) + 4) * 360 // 随机旋转几圈再停止
+    this.animation.rotate(this.deg + endAddAngle + rangeAngle).step()
+    this.animationData = this.animation.export()
+    this.deg += rangeAngle
+    //this.$apply()
+  },
+  
+  closeWin(){
+    console.log(2)
+    this.animation.rotate(0).step()
+    this.animationData = this.animation.export()
+    this.deg = 0
+    //this.$apply()
+  },
+  methods(){
+  
+  },
   /**
    * 生命周期函数--监听页面初次渲染完成
    */
