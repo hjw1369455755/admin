@@ -48,6 +48,7 @@ Page({
     var that = this;
     let lotteryNum = that.data.lotteryNum;
     if (lotteryNum > 0) {
+      console.log(Math.floor(Math.random(1) * 360))
       this.setData({
         angel: Math.floor(Math.random(1) * 360) /**传入的角度 */
       })

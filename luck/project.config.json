@@ -39,7 +39,7 @@
   "compileType": "miniprogram",
   "libVersion": "2.14.0",
   "appid": "wxb2569cea363965d5",
-  "projectname": "luck",
+  "projectname": "luckldraw",
   "debugOptions": {
     "hidedInDevtools": []
   },

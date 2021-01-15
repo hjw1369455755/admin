@@ -1,9 +1,11 @@
 {
   "pages": [
-    "pages/luck/luck",
-    "pages/luck1/luck1",
-    "pages/index/index",
+    "pages/login/login",
     "pages/logs/logs",
+    "pages/collect/collect",
+    "pages/luck/luck",
+    "pages/index/index",
+    "pages/luck1/luck1",
     "pages/luck2/luck2"
   ],
   "window": {
@@ -22,19 +24,25 @@
         "pagePath": "pages/luck/luck",
         "iconPath": "/pages/images/home.png",
         "selectedIconPath": "/pages/images/home_a.png",
-        "text": "首页"
+        "text": "方案一"
       },
       {
         "pagePath": "pages/luck1/luck1",
         "iconPath": "/pages/images/home.png",
         "selectedIconPath": "/pages/images/home_a.png",
-        "text": "产品中心"
+        "text": "方案二"
       },
       {
         "pagePath": "pages/luck2/luck2",
         "iconPath": "/pages/images/home.png",
         "selectedIconPath": "/pages/images/home_a.png",
-        "text": "公司简介"
+        "text": "方案三"
+      },
+      {
+        "pagePath": "pages/collect/collect",
+        "iconPath": "/pages/images/home.png",
+        "selectedIconPath": "/pages/images/home_a.png",
+        "text": "问卷调查"
       }
     ]
   },

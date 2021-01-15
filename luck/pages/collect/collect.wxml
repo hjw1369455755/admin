@@ -1,0 +1,20 @@
+<view>
+  <view class="collect">
+    <text>111111</text>
+    <view>
+      <label>
+        <radio value="" checked="true ">是</radio>
+        <radio>否</radio>
+      </label>
+    </view>
+  </view>
+  <view class="collect">
+    <text>22222</text>
+    <view>
+      <label>
+        <radio>是</radio>
+        <radio>否</radio>
+      </label>
+    </view>
+  </view>
+</view>

@@ -45,8 +45,6 @@ Page({
       return;
     }
 
-    
-
     //设置按钮不可点击
     e.setData({
       btnconfirm:'/pages/images/dianjichoujiangd.png',
